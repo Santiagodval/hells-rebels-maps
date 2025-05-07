@@ -1,0 +1,58 @@
+{
+  "id": "hells-rebels-map-module",
+  "title": "Hell's Rebels Map Module",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11.315"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "monks-wall-enhancement",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "monks-active-tiles",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "tagger",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "pf1",
+        "type": "system",
+        "compatibility": {}
+      },
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "The Map Goblin"
+    }
+  ],
+  "description": "Maps for the Hell's Rebels Pathfinder Adventure Path.",
+  "packs": [
+    {
+      "name": "hells-rebels-map-module",
+      "label": "Hell's Rebels Map Module",
+      "path": "packs/hells-rebels-map-module",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ]
+}
